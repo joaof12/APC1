@@ -8,22 +8,23 @@ acima de 500.00 aplica 10%.
 
 int main () {
 
-  float valor_bruto = 100.0f
+  float valor_bruto = 100.0f;
 
-  printf ("Insira um valor bruto: ");
-  scanf ("%f", &valor_bruto);
+  printf("Insira um valor bruto: ");
+  scanf("%f", &valor_bruto);
 
 
-  int valor_bruto_ate_100 = valor_bruto <= 100.0;
+  int valor_bruto_ate_100 = valor_bruto <= 100;
   
-  if (valor_desconto_ate_100) {
-    valor_desconto = valor_bruto * 0.01f;
+  /*if (valor_desconto_ate_100) {
+    v
+    = valor_bruto * 0.01f;
   }
 
-  int valor_bruto_maior_que_100_menor_igual_a_500 = > 100.0f  && valor_bruto <= 500.0f;
+  int valor_bruto_maior_que_100_menor_igual_a_500 = 100.0f  && valor_bruto <= 500.0f;
 
   if (valor_bruto_maior_que_100_menor_igual_a_500) {
-    valor_desconto = valor_bruto * 0.05f;
+   valor_desconto = valor_bruto * 0.05f;
   }
 
   int valor_bruto_maior_que_500 = valor_bruto > 500;
@@ -31,7 +32,7 @@ int main () {
   if (valor_bruto_maior_que_500) {
     valor_desconto = valor_bruto * 0.1f;
   }
-  
+  */
 
   return 0;
   
